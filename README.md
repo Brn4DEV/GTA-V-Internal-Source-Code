@@ -1,4 +1,5 @@
 # GTA-V-Internal-Source-Code
+my old project I decided could help people learn something. So here I leave the link and the source code for everyone. I have a good learning experience!
 base made by me, using memory from nano.
 
 #
