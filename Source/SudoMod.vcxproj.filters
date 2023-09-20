@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2a12d025-c2ec-49af-84af-2c26d0618e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{2aea3073-5ad7-4330-962f-3493e16ffd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{fb33bef3-c2c6-4799-b9bf-1a7e7b9e9265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{a37e5fbd-47dc-4511-ac86-47042a5eb056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{0a4d726a-08b8-438e-8534-5bcb766889a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{0212e880-a1b9-46de-96d8-8e4b6ebc3bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native\Invoker">
+      <UniqueIdentifier>{f6433623-af59-4968-8f31-804d4fe3bc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native\Crossmap">
+      <UniqueIdentifier>{6ce5c26e-2db0-455a-949d-4b1211ceddee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native\Call">
+      <UniqueIdentifier>{ef8fe409-ef67-4980-97a0-649fc14bffd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{8dd3fde2-128f-401a-b84a-7e312703fe72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{1ffd7a20-5faf-40b8-a885-60b4213a2c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{bc895fea-72c2-40ec-ad49-041380a79a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage">
+      <UniqueIdentifier>{a578de49-04a1-4f84-a459-2d07dd67980f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeInvoker.h">
+      <Filter>Native\Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMapping.h">
+      <Filter>Native\Crossmap</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeCaller.h">
+      <Filter>Native\Call</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Tls Context.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Rage.h">
+      <Filter>Rage</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="GUI.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeInvoker.cpp">
+      <Filter>Native\Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMapping.cpp">
+      <Filter>Native\Crossmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Tls Context.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage.cpp">
+      <Filter>Rage</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
